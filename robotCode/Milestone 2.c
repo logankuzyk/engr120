@@ -76,7 +76,7 @@ void movement() // For movement tests
 			// Makes the robot go forward for roughly 1m
 			motor[motor1] = sp1;
 			motor[motor2] = sp2;
-			wait1Msec(4000);
+			wait1Msec(3700);
 			movement_state = STOP;
 			break;
 		case TURN:
